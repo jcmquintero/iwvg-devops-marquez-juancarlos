@@ -5,3 +5,4 @@
 ### Estado del código
 [![CI](https://github.com/jcmquintero/iwvg-devops-marquez-juancarlos/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/jcmquintero/iwvg-devops-marquez-juancarlos/actions/workflows/ci.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=iwvg-devops-marquez-juancarlos&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=iwvg-devops-marquez-juancarlos)
+[![Heroku broken](https://iwvg-devops-marquez-juancarlos.herokuapp.com/system/version-badge)](https://iwvg-devops-marquez-juancarlos.herokuapp.com/swagger-ui.html)
