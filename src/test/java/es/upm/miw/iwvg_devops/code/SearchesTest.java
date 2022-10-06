@@ -15,4 +15,10 @@ class SearchesTest {
                 .collect(Collectors.toList()));
     }
 
+    @Test
+    void testFindFractionAdditionByUserId() {
+        assertEquals(3, new Searches().findFractionAdditionByUserId("1").getNumerator());
+        assertEquals(1, new Searches().findFractionAdditionByUserId("1").getDenominator());
+    }
+
 }
