@@ -21,4 +21,10 @@ class SearchesTest {
         assertEquals(1, new Searches().findFractionAdditionByUserId("1").getDenominator());
     }
 
+    @Test
+    void testFindUserNameBySomeImproperFraction() {
+        assertEquals(List.of("Oscar", "Ana", "Oscar", "Paula", "Antonio", "Paula"), new Searches().findUserNameBySomeImproperFraction()
+                .collect(Collectors.toList()));
+    }
+
 }
